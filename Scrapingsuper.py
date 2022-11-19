@@ -15,7 +15,7 @@ import sqlite3
 Options= webdriver.ChromeOptions()
 Options.add_argument("--start-maximized")
    
-Driver= webdriver.Chrome(r"/Users/ramirofernandezdeullivarri/opt/rulo/newvenv/Webdriver/chromedriver" , options=Options)
+Driver= webdriver.Chrome(r"XXXXXXXXX" , options=Options)
 
 Driver.get("https://www.disco.com.ar/almacen")
 #Driver.maximize_window()
